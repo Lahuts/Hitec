@@ -1,0 +1,113 @@
+main{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    max-width: 120rem;
+}
+
+.gMap{
+    margin-top: 7.4rem;
+    width: 100%;
+    height: 60vh;
+    background-image: url(/asset/map.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>h2{
+    font-size: 4rem;
+}
+form>p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+input{
+    padding:1rem;
+}
+label{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: rgb(167, 167, 167);
+}
+input{
+    border: thin black solid;
+}
+textarea{
+    height: 25vh;
+}
+button{
+    margin-top: 2rem;
+    background-color: rgb(252, 90, 90);
+    color: #fff;
+    padding: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+ul>li>h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.info{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.info:first-child{
+    margin-top: 0rem;
+}
+.info{
+    margin-top: 4rem;
+}
+footer{
+    border-top: thin rgb(196, 196, 196) solid;
+    margin-top: 4rem;
+}
+
+@media (max-width:913px) {
+    main{
+        margin: 0;
+    }
+    section{
+        display: block;
+    }
+    section>div{
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2,1fr);
+        margin: 2rem;
+        gap: 1rem;
+    }
+    .info{
+        margin: 0;
+    }
+    form>h2{
+        text-align: center;
+    }
+    form>input,textarea,button{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    form>p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    label{
+        margin-left: 1rem;
+    }
+}

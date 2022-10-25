@@ -1,0 +1,50 @@
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(108, 108, 108);
+}
+.rse{
+    margin: auto;
+}
+.rse>h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    padding-top: 2rem;
+
+}
+.rse-block{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    height: 50vh;
+    margin: 2rem;
+}
+.rse-block>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background-color:  rgb(233, 245, 255);
+    padding: 2rem;
+    color: rgb(63, 63, 63);
+}
+.rse-block{
+    background-color: rgb(255, 255, 255);
+}
+.rse-block>div>h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.rse-block>div>p{
+    text-align: start;
+    margin: 0;
+    max-width: 100%;
+}
+.rse-block>.right-side{
+    background-color: rgb(170, 212, 248);
+}
+.rse-block>.right-side>img{
+    width: 20vw;
+    height: 20vw;
+    background-color: #fff;
+}

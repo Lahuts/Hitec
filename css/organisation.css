@@ -1,0 +1,108 @@
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-color: #7a7a7f;
+}
+.org-pres{
+    text-align: center;
+}
+.org-pres>h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.org-pres>p{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.org-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    grid-column-gap: 2rem;
+    max-width: 90%;
+    margin: auto;
+}
+.org-container>li>h3{
+    padding: 1rem;
+    border: thin black solid;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+
+    
+    .Dir { 
+        grid-area: 1 / 2 / 2 / 4;
+        text-align: center;
+        margin: auto;
+     }
+     .Dir>h2{
+         padding: 2rem;
+         border: thin solid black;
+         border-radius: 1rem;
+         font-size: 2.5rem;
+         font-weight: 500;
+     }
+    .Com { grid-area: 2 / 1 / 5 / 2; }
+    .Tech { grid-area: 2 / 2 / 5 / 3; }
+    .Trav{ grid-area: 2 / 3 / 5 / 4; }
+    .AdFi { grid-area: 2 / 4 / 5 / 5; }
+
+    .org-container{
+        margin: 3rem;
+    }
+    .org-container>li>ul>li{
+        text-align: center;
+        padding: 1rem;
+        margin-top: 1rem;
+        border: thin solid black;
+        border-radius: 1rem;
+    }
+    .org-organigramme{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 90%;
+        margin: auto;
+        gap: 2vw;
+    }
+    .org-organigramme>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .org-organigramme>div>h2{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .org-organigramme>div>q{
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .org-organigramme>div>ul{
+        font-size: 1.6rem;
+    }
+    .org-organigramme>div>ul>li{
+        list-style:circle;
+        margin: 2rem;
+    }
+    .org-organigramme>div>p{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .org-organigramme>div{
+        background-color: #edecec;
+        padding: 1rem;
+    }
+    .org-organigramme{
+        margin-bottom: 3rem;
+    }
+    

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E11417;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#FFFFFF;}
+	.st3{opacity:0.29;fill:#FFFFFF;}
+</style>
+<g>
+	<rect x="22.6" y="85.8" class="st0" width="317.7" height="259.6"/>
+	<g>
+		<g>
+			
+				<image style="overflow:visible;opacity:0.75;" width="327" height="263" xlink:href="50FD34928E31AEE1.png"  transform="matrix(1 0 0 1 66 47)">
+			</image>
+			<g>
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2711.0806" y1="19.4758" x2="2575.8528" y2="323.2023" gradientTransform="matrix(-1 0 0 1 2872.8867 0)">
+					<stop  offset="0" style="stop-color:#C9CACD"/>
+					<stop  offset="0.2193" style="stop-color:#BDBEC1"/>
+					<stop  offset="0.6127" style="stop-color:#9E9FA3"/>
+					<stop  offset="1" style="stop-color:#7A7A7F"/>
+				</linearGradient>
+				<rect x="81.8" y="55.1" class="st1" width="295.3" height="232.5"/>
+			</g>
+		</g>
+		<g>
+			<polygon class="st2" points="121.6,256.4 121.6,85.8 133,85.8 133,165.4 144.4,165.4 144.4,85.8 155.7,85.8 155.7,256.4 
+				144.4,256.4 144.4,176.8 133,176.8 133,256.4 			"/>
+			<rect x="172.2" y="85.8" class="st2" width="11.4" height="170.7"/>
+			<polygon class="st2" points="211.4,97.1 200,97.1 200,85.8 234.1,85.8 234.1,97.1 222.7,97.1 222.7,256.4 211.4,256.4 			"/>
+			<polygon class="st2" points="250.6,85.8 284.7,85.8 284.7,97.1 261.9,97.1 261.9,165.4 284.7,165.4 284.7,176.8 261.9,176.8 
+				261.9,245.1 284.7,245.1 284.7,256.4 250.6,256.4 			"/>
+			<polygon class="st2" points="301.1,85.8 335.3,85.8 335.3,97.1 312.5,97.1 312.5,245.1 335.3,245.1 335.3,256.4 301.1,256.4 			
+				"/>
+		</g>
+		<path class="st3" d="M81.8,55.1v157.3c0,0,168.8,11.6,295.3-54.2c0-12.3,0-103.1,0-103.1"/>
+	</g>
+</g>
+</svg>

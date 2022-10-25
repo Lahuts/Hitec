@@ -1,0 +1,258 @@
+.banner{
+    height: 60vh;
+    background-color: rgb(185, 185, 185);
+}
+main{
+    margin: auto;
+}
+.pres{
+    max-width: 60%;
+    margin: auto;
+    line-height: 2.6rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.pres h2{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.pres p{
+    padding-bottom: 4rem;
+}
+.container{
+    display: grid;
+    height: 40vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: repeat(3,1fr);
+    margin: auto;
+    width: fit-content;
+}
+.container>div{
+    display: flex;
+    height: fit-content;
+ 
+}
+
+.l-chev{
+    border:thin solid black ;
+    border-radius: 2rem;
+    padding: 1rem;
+    filter: invert(100%);
+    margin-right: 4rem;
+    content:url("../asset/chev.svg");
+    cursor: pointer;
+}
+.r-chev{
+    border:thin solid black ;
+    border-radius: 2rem;
+    padding: 1rem;
+    filter: invert(100%);
+    margin-left: 4rem;
+    content:url("../asset/chv.svg");
+    cursor: pointer;
+}
+.l-chev:hover,.r-chev:hover{
+    transition: .3s ease-in-out all;
+    background-color: rgb(133, 133, 133);
+}
+.container>div::after{
+
+    content: " ";
+    background-color: black;
+    width: 2rem;
+    height: .1rem;
+    position: relative;
+    align-self: center;
+    background-color: #FFF;
+}
+.container>div:last-child:after{
+    width: 0;
+}
+.hidden-text{
+    display: none;
+}
+div>h2:hover{
+    box-shadow: .1rem .1rem 1rem .1rem inset rgb(71, 70, 70);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s linear all;
+}
+
+div>h2{
+    display: flex;
+    border: thin #fff solid;
+    height: fit-content;
+    padding:.5rem 1rem .5rem 1rem;
+    border-radius: 2rem;
+}
+
+.div9{
+    width: fit-content;
+}
+
+.chronologie{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    background-color: rgb(145, 145, 145);
+    height: 40vh;
+}
+.chronologie>h2{
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+
+
+
+    .container>h2{
+        width: 100%;
+    }
+
+    .info-date{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }
+    .info-date>h2{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .date{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .info-date>p{
+        font-size: 1.6rem;
+        padding-bottom: 4rem;
+        margin: auto;
+        padding: 0;
+        max-width: 80%;
+    }
+
+    .chiffre{
+        text-align: center;
+    }
+    .chiffre ul{
+        max-height: 30vh;
+        display: grid;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        grid-template-columns: repeat(2,1fr);
+        align-content: center;
+    }
+    .chiffre ul>li>p:first-child{
+        font-weight: 500;
+        font-size: 5rem;
+    }
+    .chiffre ul>li>p:nth-child(2){
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(255, 76, 76);
+        margin-bottom: 4rem;
+    }
+    .chiffre H2{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    footer{
+        bottom: 0%;
+        z-index: 2;
+        background-color: #fff;
+    }
+
+    .chiffre>ul>li:nth-child(2)>p:first-child::after {
+        content: counter(count) ".6 M€";
+        animation: counter .5s;
+        counter-increment: count 10;
+      }
+
+      .chiffre>ul>li:nth-child(1)>p:first-child::after {
+        content: counter(count);
+        animation: counter .5s;
+        counter-increment: count 34;
+      }
+      
+      @keyframes counter {
+        0% {
+          counter-increment: count 0;
+        }
+        10% {
+          counter-increment: count 1;
+        }
+        20% {
+          counter-increment: count 2;
+        }
+        30% {
+          counter-increment: count 3;
+        }
+        40% {
+          counter-increment: count 4;
+        }
+        50% {
+          counter-increment: count 5;
+        }
+        60% {
+          counter-increment: count 6;
+        }
+        70% {
+          counter-increment: count 7;
+        }
+        80% {
+          counter-increment: count 8;
+        }
+        90% {
+          counter-increment: count 9;
+        }
+        100% {
+          counter-increment: count 10;
+        }
+      }
+
+    @media (max-height:800px) {
+        .chronologie{
+            height: 60vh;
+        }
+    }
+    @media (max-width: 915px) {
+        .pres{
+            max-width: 85%;
+        }
+        .pres h2{
+            line-height: 4rem;
+        }
+        .chronologie>.container{
+            display: none;
+        }
+        .chronologie{
+            height: auto;
+        }
+        section article p{
+            max-width: 100%;
+        }
+        .info-date p{
+            margin-bottom: 2rem;
+        }
+        .chiffre ul{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+    }

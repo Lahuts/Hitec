@@ -5,7 +5,7 @@
 .banner{
     height: 60vh;
     background-color: rgb(185, 185, 185);
-    background-image: url("/asset/def.jpg");
+    background-image: url("../../../Hitec/asset/def.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     

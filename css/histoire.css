@@ -1,25 +1,36 @@
+.test{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .banner{
     height: 60vh;
     background-color: rgb(185, 185, 185);
+    background-image: url("/asset/def.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 main{
     margin: auto;
 }
 .pres{
-    max-width: 60%;
-    margin: auto;
-    line-height: 2.6rem;
-    text-align: center;
+    max-width: 80%;
+    line-height: 4rem;
     padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    color: #2a2a2a;
 }
 .pres h2{
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 900;
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
 .pres p{
     padding-bottom: 4rem;
+    font-size: 3rem;
+    font-weight: 300;
 }
 .container{
     display: grid;
@@ -36,19 +47,17 @@ main{
 }
 
 .l-chev{
-    border:thin solid black ;
+    border:.2rem solid #2a2a2a; ;
     border-radius: 2rem;
     padding: 1rem;
-    filter: invert(100%);
     margin-right: 4rem;
     content:url("../asset/chev.svg");
     cursor: pointer;
 }
 .r-chev{
-    border:thin solid black ;
+    border:.2rem solid #2a2a2a; ;
     border-radius: 2rem;
     padding: 1rem;
-    filter: invert(100%);
     margin-left: 4rem;
     content:url("../asset/chv.svg");
     cursor: pointer;
@@ -62,7 +71,7 @@ main{
     content: " ";
     background-color: black;
     width: 2rem;
-    height: .1rem;
+    height: .5rem;
     position: relative;
     align-self: center;
     background-color: #FFF;
@@ -82,10 +91,12 @@ div>h2:hover{
 
 div>h2{
     display: flex;
-    border: thin #fff solid;
+    border: .5rem #fff solid;
     height: fit-content;
     padding:.5rem 1rem .5rem 1rem;
     border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .div9{
@@ -93,17 +104,20 @@ div>h2{
 }
 
 .chronologie{
+    border-radius: 4rem 0 0 4rem;
     display: flex;
     flex-direction: column;
-    color: #FFF;
-    background-color: rgb(145, 145, 145);
-    height: 40vh;
+    color: #2a2a2a;
+    background-color: rgb(219, 219, 219);
+    height: 100%;
+    margin-left: 2rem;
+    padding: 2rem;
 }
 .chronologie>h2{
-    padding-top: 4rem;
+    margin-top: 12rem;
     text-align: center;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .container {
@@ -126,7 +140,7 @@ div>h2{
     .info-date{
         margin-left: auto;
         margin-right: auto;
-        max-width: 80%;
+        max-width: 100%;
     }
     .info-date>h2{
         display: flex;
@@ -138,7 +152,9 @@ div>h2{
         font-weight: 500;
     }
     .info-date>p{
-        font-size: 1.6rem;
+        font-size: 2.5rem;
+        font-weight: 500
+        ;
         padding-bottom: 4rem;
         margin: auto;
         padding: 0;
@@ -146,14 +162,12 @@ div>h2{
     }
 
     .chiffre{
-        text-align: center;
+        margin-left: 5rem;;
     }
     .chiffre ul{
         max-height: 30vh;
         display: grid;
-        margin: auto;
-        width: 80%;
-        text-align: center;
+        width: 50%;
         grid-template-columns: repeat(2,1fr);
         align-content: center;
     }
@@ -171,7 +185,8 @@ div>h2{
         margin-top: 4rem;
         margin-bottom: 4rem;
         font-size: 4rem;
-        font-weight: 500;
+        font-weight: 900;
+        color: #2a2a2a;
     }
     footer{
         bottom: 0%;
@@ -183,12 +198,16 @@ div>h2{
         content: counter(count) ".6 M€";
         animation: counter .5s;
         counter-increment: count 10;
+        color: #2a2a2a;
+        font-weight: 700;
       }
 
       .chiffre>ul>li:nth-child(1)>p:first-child::after {
         content: counter(count);
         animation: counter .5s;
         counter-increment: count 34;
+        color: #2a2a2a;
+        font-weight: 700;
       }
       
       @keyframes counter {

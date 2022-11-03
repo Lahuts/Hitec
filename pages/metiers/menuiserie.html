@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="../../css/main.css" />
     <link rel="stylesheet" href="../../css/incendie.css" />
     <link rel="stylesheet" href="../../css/menuiserie.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.3/css/splide.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+  </body>
+
+    <title>Menuiserie Intérieures</title>
   </head>
   <body>
     <header>
@@ -113,7 +118,91 @@
           </li>
         </ul>
       </section>
+      <section class="chantier">
+        <h2>Nos Précédent Chantiers</h2>
+        <section class="splide" aria-label="Splide Basic">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <figure>
+                  <img src="/asset/KOUTIO/1.jpg" alt="" />
+                  <figcaption>
+                    <h3>112CBC051 - MEDIOPOLE DE KOUTIO</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure>
+                  <img src="/asset/LYCEESAINTDENIS/DSC_0003.JPG" alt="" />
+                  <figcaption>
+                    <h3>115LEO059 - LYCEE SAINT DENIS</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure>
+                  <img src="/asset/FONDATIONNECKER/DSC_0063.JPG" alt="" />
+                  <figcaption>
+                    <h3>116LEO083 - FONDATION NECKER</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure>
+                  <img src="/asset/HOTELMARRIOTT/1.JPG" alt="" />
+                  <figcaption>
+                    <h3>119CBC216 - HOTEL MARRIOTT</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              
+            </ul>
+          </div>
+        </section>
+      </section>
     </main>
+<div class="modal">
+  <img src="" alt="" class="modal__img">
+  <section class="mod_splide" id="mod_splide" aria-label="Splide Basic HTML">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <figure>
+            <img src="/asset/KOUTIO/1.jpg" alt="" />
+            <figcaption>
+              <h3>112CBC051 - MEDIOPOLE DE KOUTIO</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="splide__slide">
+          <figure>
+            <img src="/asset/LYCEESAINTDENIS/DSC_0003.JPG" alt="" />
+            <figcaption>
+              <h3>115LEO059 - LYCEE SAINT DENIS</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="splide__slide">
+          <figure>
+            <img src="/asset/FONDATIONNECKER/DSC_0063.JPG" alt="" />
+            <figcaption>
+              <h3>116LEO083 - FONDATION NECKER</h3>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="splide__slide">
+          <figure>
+            <img src="/asset/HOTELMARRIOTT/1.JPG" alt="" />
+            <figcaption>
+              <h3>119CBC216 - HOTEL MARRIOTT</h3>
+            </figcaption>
+          </figure>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+</div>
     <footer>
       <ul>
         <li>
@@ -125,5 +214,7 @@
         <li>&copy;Hitec France 2022</li>
       </ul>
     </footer>
-  </body>
+    <script src="/js/modal.js"></script>   
+    <script src="/js/slider.js"></script>
+
 </html>

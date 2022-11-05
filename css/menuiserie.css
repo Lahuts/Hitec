@@ -68,13 +68,15 @@
     height: 100%;
 }
 
-.modal--active>img{
+.modal--active>.m_img{
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 110rem;
-    max-height: 80rem;
-    border-radius: 2rem;
+    width: 80vw;
+    height: 40vw;
+}
+.m_img>img{
+    width: 100%;
+    height: 100%;
 }
 .modal--active>.mod_splide>.splide__track{
     margin-top: 2rem;
@@ -90,4 +92,48 @@
 }
 .modal--active>.mod_splide>.splide__track>.splide__list>.splide__slide>figure>figcaption{
     display: none;
+}
+
+.modal-ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: fit-content;
+    margin: auto;
+    margin-top: 2.8rem;
+    gap: 1rem;
+}
+.modal-ul>li{
+    width: 19.6vw;
+    height: 10vw
+}
+.modal-ul>li>img{
+    width: 100%;
+    height: 100%;
+}
+.mod-remove{
+    display: flex;
+    position : relative;
+    background-color: #ffffffdc;
+    width: 2vw;
+    height: .2vw;
+    top: 7%;
+    left: 95%;
+    rotate: -45deg;
+}
+.mod-remove::after{
+    content: " ";
+    rotate: 90deg;
+    width: 2vw;
+    height: .2vw;
+    background-color: inherit;
+}
+.mod-remove:hover{
+    background-color: #707070dc;
+}
+.modal-ul>li{
+    border: thin white solid;
+}
+.modal-ul>li>img:hover{
+    transition: 0.5s;
+    scale : 1.1;
 }

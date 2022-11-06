@@ -229,13 +229,13 @@ footer ul >li , footer ul >li a{
 
 }
 .side_title a:first-child article{
-    background-image: url(/asset/act.jpg);
+    background-image: url(/Hitec/asset/act.jpg);
     background-size: cover;
     background-position: center;
 
 }
 .side_title a:last-child article{
-    background-image: url(/asset/1.jpg);
+    background-image: url(/Hitec/asset/1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -286,13 +286,13 @@ footer ul >li , footer ul >li a{
 .tri_element a:nth-child(1){
     background-color: rgb(196, 196, 196);
     color: #fff;
-    background-image: url(/asset/f_protection.jpg);
+    background-image: url(/Hitec/asset/f_protection.jpg);
     box-shadow: black 0px 100px 500px 0px inset;
 }
 .tri_element a:nth-child(2){
     background-color: rgb(146, 146, 146);
     color: #fff;
-    background-image: url(/asset/platerie.jpg);
+    background-image: url(/Hitec/asset/platerie.jpg);
         background-position: center;
     background-size: cover;
     box-shadow: black 0px 100px 500px 0px inset;
@@ -301,7 +301,7 @@ footer ul >li , footer ul >li a{
 .tri_element a:nth-child(3){
     background-color: rgb(85, 84, 84);
     color: #fff;
-    background-image: url(/asset/IntMenui.webp);
+    background-image: url(/Hitec/asset/IntMenui.webp);
     background-position: center;
     background-size: cover;
     box-shadow: black 0px 100px 500px 0px inset;

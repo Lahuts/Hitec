@@ -45,6 +45,9 @@ main{
     height: fit-content;
  
 }
+.chron_img{
+    overflow: hidden;
+}
 
 .l-chev{
     border:.2rem solid #2a2a2a; ;

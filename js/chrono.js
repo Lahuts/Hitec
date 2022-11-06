@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     infoDate.forEach((element) => {
       element.querySelector("h2").style.backgroundColor = "rgb(145, 145, 145)";
     });
-    fdiv.style.backgroundColor ="rgb(255, 76, 76)";
+    fdiv.style.backgroundColor ="rgb(219, 219, 219)";
   });
 
   let btnr = document.querySelector(".r-chev").addEventListener("click", () => {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     infoDate.forEach((element) => {
       element.querySelector("h2").style.backgroundColor = "rgb(145, 145, 145)";
     });
-    fdiv.style.backgroundColor ="rgb(255, 76, 76)";
+    fdiv.style.backgroundColor ="rgb(219, 219, 219)";
   });
 })
 document.addEventListener("DOMContentLoaded", (e) => {

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
       let tit = element.querySelector("h2");
       infoDate.forEach((element) => {
         element.querySelector("h2").style.backgroundColor =
-          "rgb(145, 145, 145)";
+          "rgb(219, 219, 219)";
       });
       tit.style.backgroundColor = "rgb(255, 76, 76)";
       let p = document.querySelector(".info-date>p");
@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
     h2.innerText = `${fdiv.innerText}`;
     p.innerText = pdiv.innerText;
     infoDate.forEach((element) => {
-      element.querySelector("h2").style.backgroundColor = "rgb(145, 145, 145)";
+      element.querySelector("h2").style.backgroundColor = "rgb(219, 219, 219)";
     });
-    fdiv.style.backgroundColor ="rgb(219, 219, 219)";
+    fdiv.style.backgroundColor ="rgb(255, 76, 76)";
   });
 
   let btnr = document.querySelector(".r-chev").addEventListener("click", () => {
@@ -50,9 +50,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
     h2.innerText = `${fdiv.innerText}`;
     p.innerText = pdiv.innerText;
     infoDate.forEach((element) => {
-      element.querySelector("h2").style.backgroundColor = "rgb(145, 145, 145)";
+      element.querySelector("h2").style.backgroundColor = "rgb(219, 219, 219)";
     });
-    fdiv.style.backgroundColor ="rgb(219, 219, 219)";
+    fdiv.style.backgroundColor ="rgb(255, 76, 76)";
   });
 })
 document.addEventListener("DOMContentLoaded", (e) => {

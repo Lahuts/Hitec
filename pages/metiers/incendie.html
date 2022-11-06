@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="../../css/main.css" />
     <link rel="stylesheet" href="../../css/incendie.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.3/css/splide.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="../../css/menuiserie.css">
+    <script src="../../@splidejs/splide/dist/js/splide.min.js"></script>
     <title>Protection Incendie Passive</title>
   </head>
   <body>
@@ -71,7 +75,7 @@
         <h2>Nos expertises</h2>
         <ul>
           <li>
-            <img src="" alt="" />
+            <img src="/asset/coupefeu.png" alt="" />
             <h3> <strong> Conduits de désenfumage coupe feu</strong></h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -79,7 +83,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/asset/flocage.webp" alt="" />
             <h3><strong>Flocage sur conduits en tôle</strong></h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
@@ -87,7 +91,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/asset/encof.jpg" alt="" />
             <h3><strong>Encoffrements coupe feu</strong></h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
@@ -95,7 +99,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/asset/projec.jpg" alt="" />
             <h3><strong>Projection d'enduit à base de plâtre</strong></h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -103,7 +107,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img src="/asset/protec.webp" alt="" />
             <h3><strong>Calfeutrements coupe feu</strong></h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe,
@@ -111,6 +115,47 @@
             </p>
           </li>
         </ul>
+      </section>
+      <section class="chantier">
+        <h2>Nos Précédents Chantiers</h2>
+        <section class="splide" aria-label="Splide Basic">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <figure data-img1="../../../Hitec/asset/KOUTIO/1.jpg" data-img2="../../../Hitec/asset/KOUTIO/d2.JPG" data-img3="../../../Hitec/asset/KOUTIO/d3.JPG" data-img4="../../../Hitec/asset/KOUTIO/d4.JPG">
+                  <img src="../../../Hitec/asset/KOUTIO/1.jpg" alt="" />
+                  <figcaption>
+                    <h3>112CBC051 - MEDIOPOLE DE KOUTIO</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure data-img1="../../../Hitec/asset/LYCEESAINTDENIS/1.JPG" data-img2="../../../Hitec/asset/LYCEESAINTDENIS/2.JPG" data-img3="../../../Hitec/asset/LYCEESAINTDENIS/3.JPG" data-img4="../../../Hitec/asset/LYCEESAINTDENIS/4.jpg">
+                  <img src="../../../Hitec/asset/LYCEESAINTDENIS/1.JPG" alt="" />
+                  <figcaption>
+                    <h3>115LEO059 - LYCEE SAINT DENIS</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure data-img1="../../../Hitec/asset/FONDATIONNECKER/1.JPG" data-img2="../../../Hitec/asset/FONDATIONNECKER/2.JPG" data-img3="../../../Hitec/asset/FONDATIONNECKER/3.JPG" data-img4="../../../Hitec/asset/FONDATIONNECKER/4.JPG">
+                  <img src="../../../Hitec/asset/FONDATIONNECKER/4.JPG" alt="" />
+                  <figcaption>
+                    <h3>116LEO083 - FONDATION NECKER</h3>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide">
+                <figure data-img1="../../../Hitec/asset/HOTELMARRIOTT/1.JPG" data-img2="../../../Hitec/asset/HOTELMARRIOTT/2.JPG" data-img3="../../../Hitec/asset/HOTELMARRIOTT/3.JPG" data-img4="../../../Hitec/asset/HOTELMARRIOTT/4.JPG">
+                  <img src="../../../Hitec/asset/HOTELMARRIOTT/1.JPG" alt="" />
+                  <figcaption>
+                    <h3>119CBC216 - HOTEL MARRIOTT</h3>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </section>
       </section>
     </main>
     <footer>
@@ -124,5 +169,9 @@
         <li>&copy;Hitec France 2022</li>
       </ul>
     </footer>
+    <script src="../../../js/modal.js"></script>   
+    <script src="../../../js/slider.js"></script>
+
   </body>
+  
 </html>

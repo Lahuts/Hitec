@@ -63,7 +63,7 @@ nav>ul>li>a{
     z-index: 1;
     background-color: #fff;
     width: 100%;
-    border-top:thin solid rgb(226, 226, 226);
+    border-top:thin solid rgb(28, 28, 28);
     transition: all 0.3s ease-in-out;
     max-height: 0;
     overflow: hidden;
@@ -86,7 +86,7 @@ nav>ul>li>a{
     z-index: 1;
     background-color: #fff;
     width: 100%;
-    border-top:thin solid rgb(226, 226, 226);
+    border-top:thin solid rgb(28, 28, 28);
     transition: all 0.3s ease-in-out;
     max-height: 0;
     overflow: hidden;
@@ -116,24 +116,29 @@ nav>ul>li>a{
 .herobanner{
     display: flex;
     background-size: cover;
+    background-position: center;
+    background-image: url(/asset/KOUTIO/1.jpg);
     height: 95vh;
     width: 100vw;
     /*background-image: url(/asset/hrbn.jpg);*/
     background-color:#7a7a7f;
     gap: 6rem;
     flex-direction: column;
+    box-shadow: black 0px 200px 500px 0px inset;
+    justify-content: center;
 }
 .herobanner h2{
-    font-size: 5rem;
-    font-weight: 500;
-    position: relative;
+    display: flex;
+    margin-left: 10rem;
+    font-size: 8rem;
+    font-weight: 900;
     top: 30%;
     left: 10%;
     color: #fff;
 }
 .herobanner h2:first-child:after {
     position: relative;
-    top: 50%;
+    top: 60%;
     right: 70%;
     font-size: 1rem;
     z-index: 0;
@@ -152,19 +157,24 @@ nav>ul>li>a{
     font-size: 2rem;
     z-index: 0;
 }
-.presentation img:nth-child(3){
-    background-color: rgb(255, 255, 255);
 
+.presentation>article>p{
+    font-size:2.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .presentation>article ,.side_title>a>article>h2{
-    padding: 4rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 section article h2 {
     margin: 2rem;
     text-align: center;
     font-size: 3.5rem;
-    font-weight: 300;
+    font-weight: 900;
+
 }
 section article p{
     margin: auto;
@@ -206,6 +216,7 @@ footer ul >li , footer ul >li a{
     height: 100%;
     background-color: rgb(69, 68, 68);
     color: rgb(255, 255, 255);
+    box-shadow: black 0px 100px 500px 0px inset;
 }
 .side_title article{
     display: flex;
@@ -217,6 +228,18 @@ footer ul >li , footer ul >li a{
     margin: 0;
 
 }
+.side_title a:first-child article{
+    background-image: url(/asset/act.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.side_title a:last-child article{
+    background-image: url(/asset/1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
 
 .side_title  a article{
     display: flex;
@@ -225,7 +248,7 @@ footer ul >li , footer ul >li a{
     align-items: flex-start;
     background-color: rgb(51, 48, 48);
     height: 50vh;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .side_title  a article>h2::after{
     position: relative;
@@ -239,40 +262,53 @@ footer ul >li , footer ul >li a{
     display: grid;
     gap:2rem;
     grid-template-columns: repeat(3,1fr);
-    border-radius: 2rem;
     margin-bottom: 2rem;
 
 }
 .tri_element  a article{
     display: flex;
     height: 50vh;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: end;
+}
+.tri_element  a article h2{
+    text-align: start;
 }
 .tri_element>a:hover{
     transition: all 0.5s ease;
     box-shadow: inset .1rem .1rem 4rem 2.5rem rgba(64, 64, 64, 0.68);
 }
-.side_title>a>article:hover{
+.side_title>a>article:hover,.tri_element a article:hover{
     transition: all 0.5s ease;
-    box-shadow: inset .1rem .1rem 4rem 2.5rem rgba(64, 64, 64, 0.68);
+    box-shadow: inset .1rem .1rem 4rem 2.5rem rgba(0, 0, 0, 0.68);
 }
 
 .tri_element a:nth-child(1){
     background-color: rgb(196, 196, 196);
     color: #fff;
+    background-image: url(/asset/f_protection.jpg);
+    box-shadow: black 0px 100px 500px 0px inset;
 }
 .tri_element a:nth-child(2){
     background-color: rgb(146, 146, 146);
     color: #fff;
+    background-image: url(/asset/platerie.jpg);
+        background-position: center;
+    background-size: cover;
+    box-shadow: black 0px 100px 500px 0px inset;
+    
 }
 .tri_element a:nth-child(3){
     background-color: rgb(85, 84, 84);
     color: #fff;
+    background-image: url(/asset/IntMenui.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: black 0px 100px 500px 0px inset;
 }
 @media (max-width: 913px) {
     header{
-        height: 7vh;
+        height: 8vh;
         border-bottom: #7a7a7f solid thin;
     }
     .mob-log{
@@ -281,8 +317,8 @@ footer ul >li , footer ul >li a{
         margin-top: .5rem;
     }
     .Nav_li>a{
-        font-size: 4rem;
-        font-weight: 500;
+        font-size: 4=rem;
+        font-weight: 900;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
@@ -291,7 +327,7 @@ footer ul >li , footer ul >li a{
         display: inline-block;
         overflow: hidden;
         font-size: 4rem;
-        font-weight: 500;
+        font-weight: 900;
     }
     .Nav_container>.Nav_li:nth-child(2){
         margin-top: 4rem;
@@ -309,11 +345,11 @@ footer ul >li , footer ul >li a{
         position: absolute;
         top: 100%;
         right: 0%;
-        max-width: 100%;
+        max-width: 55%;
         opacity: 1;
         width: 100%;
         height: 100vh;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.819);
         color: black;
     }
     .Nav_container{
@@ -339,25 +375,22 @@ footer ul >li , footer ul >li a{
         margin-left: 2rem;
         font-weight: 500;
         font-size: 2rem;
+        background-color: inherit;
     }
     .hidden_categorie>li,.hidden_categorie2>li{
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
     .hidden_categorie>li>a, .hidden_categorie2>li>a{
         color:#7a7a7f;
         padding: 0rem;
     }
     .herobanner{
-        height: 70vh;
+        height: 70vh;;
     }
     .herobanner h2{
-        font-size: 5rem;
-        font-weight: 500;
-        position: relative;
-        top: 25%;
-        left: 10%;
+        font-size: 4rem;
         color: #fff;
-        width: fit-content;
+        margin-left: 2rem; ;
     }
     .burger{
         position: absolute;
@@ -426,6 +459,13 @@ footer ul >li , footer ul >li a{
         right: 65%;
         font-size: 2rem;
         z-index: 0;
+    }
+
+    .presentation article p{
+        display: initial;
+        width: 100%;
+        margin: 0;
+        font-size: 1.6rem;
     }
     .side_title{
         display: block;

@@ -2,7 +2,7 @@
     height: 50vh;
     width: 100%;
     background-color: rgb(108, 108, 108);
-    background-image: url(/Hitec/asset/nature.jpg);
+    background-image: url(../../Hitec/asset/nature.jpg);
 }
 .rse{
     margin: auto;

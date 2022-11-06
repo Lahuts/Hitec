@@ -2,6 +2,7 @@
     height: 50vh;
     width: 100%;
     background-color: rgb(108, 108, 108);
+    background-image: url(/Hitec/asset/nature.jpg);
 }
 .rse{
     margin: auto;
@@ -9,15 +10,18 @@
 .rse>h2{
     text-align: center;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 900;
     padding-top: 2rem;
+    color: rgb(36, 36, 36);
 
 }
 .rse-block{
     display: grid;
     grid-template-columns: 3fr 5fr;
-    height: 50vh;
-    margin: 2rem;
+    height: 70vh;
+    margin: 4rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
 }
 .rse-block>div{
     display: flex;
@@ -26,14 +30,14 @@
     gap: 2rem;
     background-color:  rgb(233, 245, 255);
     padding: 2rem;
-    color: rgb(63, 63, 63);
+    color: rgb(36, 36, 36);
 }
 .rse-block{
     background-color: rgb(255, 255, 255);
 }
 .rse-block>div>h3{
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 900;
 }
 .rse-block>div>p{
     text-align: start;
@@ -41,10 +45,12 @@
     max-width: 100%;
 }
 .rse-block>.right-side{
-    background-color: rgb(170, 212, 248);
+    background-color:  rgb(233, 245, 255);
+    width: 20vw;
 }
 .rse-block>.right-side>img{
-    width: 20vw;
+    position: absolute;
     height: 20vw;
+    width: 35vw;
     background-color: #fff;
 }

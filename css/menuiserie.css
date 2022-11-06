@@ -71,8 +71,8 @@
 .modal--active>.m_img{
     margin: auto;
     display: block;
-    width: 80vw;
-    height: 40vw;
+    width: 70vw;
+    height: 35vw;
 }
 .m_img>img{
     width: 100%;

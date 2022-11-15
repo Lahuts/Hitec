@@ -1,4 +1,4 @@
-.test{
+.gr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -85,14 +85,14 @@ main{
 .hidden-text{
     display: none;
 }
-div>h2:hover{
+.container>div>h2:hover{
     box-shadow: .1rem .1rem 1rem .1rem inset rgb(71, 70, 70);
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.3s linear all;
 }
 
-div>h2{
+.container>div>h2{
     display: flex;
     border: .5rem #fff solid;
     height: fit-content;

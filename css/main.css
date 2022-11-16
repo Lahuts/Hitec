@@ -316,7 +316,7 @@ footer>div>ul>li>a:hover{
 .tri_element a:nth-child(1) {
   background-color: rgb(196, 196, 196);
   color: #fff;
-  background-image: url(/hitec/asset/incendie.jpg);
+  background-image: url(/Hitec/asset/incendie.jpg);
   box-shadow: black 0px 100px 500px 0px inset;
   background-position: right;
   background-size: cover;

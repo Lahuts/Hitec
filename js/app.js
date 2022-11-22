@@ -8,4 +8,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
       ? burger.setAttribute("class", "cross")
       : burger.setAttribute("class","burger");
   });
+  let herobantest = document.querySelector(".herobanner");
+  let images = ["Hitec/asset/KOUTIO/1.jpg", "Hitec/asset/PLATRERIEFAUXPLAFONDS/112PAR010-LACANOPEELESHALLES/1.JPG", "Hitec/asset/LYCEESAINTDENIS/1.JPG","Hitec/asset/PLATRERIEFAUXPLAFONDS/119BOU064-CAMPUSCONDORCETAAUBERVILLIERS/1.JPG"];
+  let i = 0;
+  setInterval(() => {
+    herobantest.style.transition = "1s";
+    herobantest.style.backgroundImage = "url('" + images[i] + "')";
+    i++;
+    if (i == images.length) {
+      i = 0;
+    }
+  }, 3000);
 });

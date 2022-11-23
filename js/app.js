@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
       : burger.setAttribute("class","burger");
   });
   let herobantest = document.querySelector(".herobanner");
-  let images = ["Hitec/asset/KOUTIO/1.jpg", "Hitec/asset/PLATRERIEFAUXPLAFONDS/112PAR010-LACANOPEELESHALLES/1.JPG", "Hitec/asset/LYCEESAINTDENIS/1.JPG","Hitec/asset/PLATRERIEFAUXPLAFONDS/119BOU064-CAMPUSCONDORCETAAUBERVILLIERS/1.JPG"];
+  let images = ["asset/KOUTIO/1.jpg", "asset/PLATRERIEFAUXPLAFONDS/112PAR010-LACANOPEELESHALLES/1.JPG", "asset/LYCEESAINTDENIS/1.JPG","asset/PLATRERIEFAUXPLAFONDS/119BOU064-CAMPUSCONDORCETAAUBERVILLIERS/1.JPG"];
   let i = 0;
   setInterval(() => {
     herobantest.style.transition = "1s";
